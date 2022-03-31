@@ -1,10 +1,13 @@
 import React from 'react'
+import Login from './components/Login'
+import Login2 from './components/Login2'
 
 function App() {
   return (
-    <h1 className="text-xl font-bold">
-      Hola
-    </h1>
+    <div>
+      {/* <Login /> */}
+      <Login2 />
+    </div>
   );
 }
 
